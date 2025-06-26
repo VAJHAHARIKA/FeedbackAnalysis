@@ -49,9 +49,6 @@ modi_face_encoding = face_recognition.face_encodings(modi_image)[0]
 harika_image = face_recognition.load_image_file("images/Harika.jpeg")
 harika_face_encoding = face_recognition.face_encodings(harika_image)[0]
 
-pratibha_image = face_recognition.load_image_file("images/Pratibha.jpeg")
-pratibha_face_encoding = face_recognition.face_encodings(pratibha_image)[0]
-
 # Create arrays of known face encodings and their names
 known_face_encodings = [
     obama_face_encoding,
@@ -63,8 +60,7 @@ known_face_names = [
     "Barack Obama",
     "Trump",
     "Modi",
-    "Harika",
-    "Pratibha"
+    "Harika"
 ]
 
 # Initialize some variables
